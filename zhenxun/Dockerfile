@@ -1,7 +1,8 @@
 FROM bitnami/git as Git-Clone
+LABEL maintainer "syc@nbsyc.com" 
+ARG GIT_USER_TOKEN
 WORKDIR /usr/local/code
-RUN git clone https://github.com/HibiKier/zhenxun_bot.git
-
+RUN git clone -b nana https://{GIT_USER_TOKEN}@github.com/sdy623/zhenxun_bot.git
 ###############################################################################
 
 FROM python:3.9-slim-bullseye as Python-Whl-Builder

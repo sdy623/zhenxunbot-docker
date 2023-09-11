@@ -34,7 +34,7 @@ jobs:
           file: ./webui/Dockerfile
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: jyishit/zhenxun_webui:latest
+          tags: sdy623/zhenxun_webui:latest
 
       - name: 构建bot镜像
         id: docker_build_bot
@@ -44,4 +44,4 @@ jobs:
           file: ./zhenxun/Dockerfile
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: jyishit/zhenxun_bot:latest
+          tags: sdy623/zhenxun_bot:latest

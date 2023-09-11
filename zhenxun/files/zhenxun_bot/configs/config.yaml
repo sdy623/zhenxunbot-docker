@@ -10,7 +10,7 @@ invite_manager:
   # FLAG: 被强制拉群后是否直接退出
   # WELCOME_MSG_CD: 群欢迎消息cd
   # AUTO_ADD_FRIEND: 是否自动同意好友添加
-  MESSAGE: 请不要未经同意就拉小真寻入群!告辞!
+  MESSAGE: 请不要未经同意就拉nana酱入群!告辞!
   FLAG: true
   WELCOME_MSG_CD: 5
   AUTO_ADD_FRIEND: false
@@ -122,7 +122,7 @@ black_word:
   AUTO_PUNISH: true
   BAN_4_DURATION: 360
   BAN_3_DURATION: 7
-  WARNING_RESULT: 请注意对小真寻的发言内容
+  WARNING_RESULT: 请注意对nana酱的发言内容
   AUTO_ADD_PUNISH_LEVEL: true
   ADD_PUNISH_LEVEL_TO_COUNT: 3
   ALAPI_CHECK_FLAG: false
